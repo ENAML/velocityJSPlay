@@ -17,10 +17,11 @@ var gulp = require('gulp'),
 // Uglifies
 gulp.task('scripts', function() {
 	gulp.src(['app/js/jquery.js',
-		'app/js/history.js',
-		'app/js/jquerymobilecustom.js',
-		'app/js/hammer.js',
-		'app/js/fastclick.js',
+		// 'app/js/history.js',
+		// 'app/js/jquerymobilecustom.js',
+		// 'app/js/hammer.js',
+		// 'app/js/fastclick.js',
+		'app/velocity.js',
 		'app/js/base.js'])
 		.pipe(plumber())
 		.pipe(concat('app.js'))
