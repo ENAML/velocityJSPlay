@@ -1,0 +1,50 @@
+@mixin ffregular() {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+}
+
+@mixin ffbold() {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+@mixin ffparagraphe() {
+  font-family: "WarnockPro", Arial, sans-serif;
+}
+
+@mixin fflato() {
+  font-family: "Lato", Arial, sans-serif;
+}
+
+
+
+@mixin em($target) {
+  font-size : $target / $base-font-size + 0em;
+}
+
+// @mixin keyframe-fadeIn {
+//   0%   { opacity:0; }
+//   100% { opacity:1; }
+// }
+// @-moz-keyframes fadeIn {
+//   @include keyframe-fadeIn;
+// }
+// @-webkit-keyframes fadeIn {
+//   @include keyframe-fadeIn;
+// }
+// @-o-keyframes fadeIn {
+//   @include keyframe-fadeIn;
+// }
+// @-ms-keyframes fadeIn {
+//   @include keyframe-fadeIn;
+// }
+// @keyframes fadeIn {
+//   @include keyframe-fadeIn;
+// }
+// @mixin fadeIn( $arg ) {
+//   $keyframe-name:fadeIn;
+//   $duration:$arg;
+//   @each $p in $prefix {
+//     #{$p}animation:$keyframe-name $duration;
+//   }
+// }

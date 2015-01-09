@@ -1,0 +1,36 @@
+{
+  "name": "justoneeye-eventpage",
+  "title": "Just One Eye - event page",
+  "description": "Best project ever",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Stinkdigital/justoneeye-minisite-mobile",
+  "author": "Cline",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Stinkdigital/justoneeye-eventpage"
+  },
+  "bugs": {
+    "url": "git://github.com/Stinkdigital/justoneeye-eventpage/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Stinkdigital/justoneeye-eventpage/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [],
+  "dependencies": {
+    "gulp-imagemin": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "x",
+    "gulp-minify-css": "x",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-compass": "^2.0.1",
+    "gulp-livereload": "^2.1.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-uglify": "^1.0.1"
+  }
+}
